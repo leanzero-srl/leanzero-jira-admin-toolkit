@@ -1,0 +1,15 @@
+{
+  "name": "bulk-add-group-customers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Collect members of a Jira Cloud group and add them as JSM customers (the target site).",
+  "scripts": {
+    "collect": "node collect_members.js",
+    "add": "node add_customers.js",
+    "add:send": "node add_customers.js --send"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "license": "Apache-2.0"
+}

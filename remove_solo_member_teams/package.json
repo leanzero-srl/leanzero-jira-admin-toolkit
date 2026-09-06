@@ -1,0 +1,17 @@
+{
+  "name": "remove_solo_member_teams",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Delete Atlassian Teams whose single sole member is a given person (default: Jane Doe)",
+  "main": "main/remove_solo_member_teams.js",
+  "scripts": {
+    "plan": "node main/remove_solo_member_teams.js --plan-only",
+    "dry-run": "node main/remove_solo_member_teams.js --apply --dry-run",
+    "apply": "node main/remove_solo_member_teams.js --apply",
+    "resume": "node main/remove_solo_member_teams.js --apply --resume"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "license": "Apache-2.0"
+}

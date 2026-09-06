@@ -1,0 +1,23 @@
+{
+  "name": "jira-project-deletion-script",
+  "version": "1.0.0",
+  "description": "Delete old Jira projects that haven't been updated in specified months",
+  "main": "delete_old_projects.js",
+  "scripts": {
+    "start": "node delete_old_projects.js"
+  },
+  "keywords": [
+    "jira",
+    "project-management",
+    "automation",
+    "cleanup"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

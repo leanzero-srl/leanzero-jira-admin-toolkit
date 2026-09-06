@@ -1,0 +1,17 @@
+{
+  "name": "suspend_accounts_by_domain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Suspend or remove Atlassian org accounts filtered by email domain (default: @legacy-domain.com)",
+  "main": "main/suspend_accounts_by_domain.js",
+  "scripts": {
+    "start": "node main/suspend_accounts_by_domain.js",
+    "plan-only": "node main/suspend_accounts_by_domain.js --plan-only",
+    "dry-run": "node main/suspend_accounts_by_domain.js --dry-run",
+    "resume": "node main/suspend_accounts_by_domain.js --resume"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "license": "Apache-2.0"
+}
