@@ -1,0 +1,15 @@
+{
+  "name": "bulk-assign-permission-scheme",
+  "version": "1.0.0",
+  "description": "Exports, bulk-assigns, and restores project permission scheme mappings in Jira Cloud",
+  "main": "main/bulk_assign_permission_scheme.js",
+  "scripts": {
+    "export": "node main/bulk_assign_permission_scheme.js --mode export",
+    "apply-dry": "node main/bulk_assign_permission_scheme.js --mode apply --dry-run",
+    "restore-dry": "node main/bulk_assign_permission_scheme.js --mode restore --dry-run"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  },
+  "license": "Apache-2.0"
+}

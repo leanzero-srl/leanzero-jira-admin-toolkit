@@ -1,0 +1,28 @@
+{
+  "name": "jira-screen-field-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch screen tabs and fields from Jira API",
+  "main": "fetch_screen_fields.js",
+  "bin": {
+    "fetch-screen-fields": "./fetch_screen_fields.js"
+  },
+  "scripts": {
+    "start": "node fetch_screen_fields.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jira",
+    "atlassian",
+    "screen",
+    "fields",
+    "api"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

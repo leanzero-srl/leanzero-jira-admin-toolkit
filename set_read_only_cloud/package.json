@@ -1,0 +1,21 @@
+{
+  "name": "jira-set-permission-scheme",
+  "version": "1.0.0",
+  "description": "Set permission schemes for Jira Cloud projects",
+  "main": "set_permission_scheme.js",
+  "scripts": {
+    "help": "node set_permission_scheme.js --help"
+  },
+  "keywords": [
+    "jira",
+    "cloud",
+    "permission",
+    "scheme",
+    "migration"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^11.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "set-permission-scheme-dc",
+  "version": "1.0.0",
+  "description": "Apply / revert a Jira Data Center project permission scheme across all (or filtered) projects, with a revert-compatible backup JSON.",
+  "main": "set_permission_scheme_dc.js",
+  "bin": {
+    "set-permission-scheme-dc": "./set_permission_scheme_dc.js"
+  },
+  "scripts": {
+    "start": "node set_permission_scheme_dc.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "license": "Apache-2.0",
+  "private": true
+}

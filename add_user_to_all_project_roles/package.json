@@ -1,0 +1,13 @@
+{
+  "name": "add-user-to-all-project-roles",
+  "version": "1.0.0",
+  "description": "Add a user or group to every role on every (or filtered) Jira Cloud project.",
+  "main": "add_user_to_all_projects.js",
+  "scripts": {
+    "start": "node add_user_to_all_projects.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

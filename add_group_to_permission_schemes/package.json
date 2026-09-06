@@ -1,0 +1,14 @@
+{
+  "name": "add-to-permission-schemes",
+  "version": "1.0.0",
+  "description": "Adds a group to every permission (actor level) across all permission schemes in Jira Cloud",
+  "main": "main/add_to_permission_schemes.js",
+  "scripts": {
+    "start": "node main/add_to_permission_schemes.js",
+    "dry-run": "node main/add_to_permission_schemes.js --dry-run"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  },
+  "license": "Apache-2.0"
+}

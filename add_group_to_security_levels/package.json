@@ -1,0 +1,14 @@
+{
+  "name": "add-to-security-levels",
+  "version": "1.0.0",
+  "description": "Adds a group to all issue security levels across all security schemes in Jira Cloud",
+  "main": "main/add_to_security_levels.js",
+  "scripts": {
+    "start": "node main/add_to_security_levels.js",
+    "dry-run": "node main/add_to_security_levels.js --dry-run"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  },
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "copy-permission-schemes-dc-to-cloud",
+  "version": "1.0.0",
+  "description": "Recreate DC permission schemes on Jira Cloud as literal copies (NOT assigned to projects), translating user/group/role/customField holders to the target instance.",
+  "main": "copy_permission_schemes.js",
+  "scripts": {
+    "dry-run": "node copy_permission_schemes.js",
+    "apply": "node copy_permission_schemes.js --apply"
+  },
+  "license": "Apache-2.0"
+}
